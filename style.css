@@ -66,10 +66,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
+    transition: opacity 1.7s;
 }
 
 .active.trailer-container{
     visibility: hidden;
+    opacity: 0;
 }
 
 .trailer-container video{
